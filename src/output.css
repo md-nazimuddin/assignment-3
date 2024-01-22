@@ -2695,6 +2695,10 @@ details.collapse summary::-webkit-details-marker {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -2751,12 +2755,33 @@ details.collapse summary::-webkit-details-marker {
     width: 68%;
   }
 
+  .lg\:w-\[63\%\] {
+    width: 63%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:w-\[35\%\] {
+    width: 35%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -2818,6 +2843,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:pt-40 {
     padding-top: 10rem;
+  }
+
+  .lg\:text-start {
+    text-align: start;
   }
 
   .lg\:text-\[2rem\] {
