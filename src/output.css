@@ -2026,6 +2026,14 @@ details.collapse summary::-webkit-details-marker {
   right: 2.5rem;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
 .z-\[1\] {
   z-index: 1;
 }
@@ -2100,6 +2108,10 @@ details.collapse summary::-webkit-details-marker {
   height: 24rem;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-2\/4 {
   width: 50%;
 }
@@ -2138,6 +2150,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-\[63\%\] {
   width: 63%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .min-w-full {
@@ -2301,6 +2317,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: ;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -2366,6 +2387,16 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 0.75rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pt-28 {
   padding-top: 7rem;
 }
@@ -2376,6 +2407,18 @@ details.collapse summary::-webkit-details-marker {
 
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-center {
@@ -2574,6 +2617,10 @@ details.collapse summary::-webkit-details-marker {
     height: 450px;
   }
 
+  .lg\:w-\[90\%\] {
+    width: 90%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2581,5 +2628,24 @@ details.collapse summary::-webkit-details-marker {
   .lg\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+  }
+
+  .lg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
